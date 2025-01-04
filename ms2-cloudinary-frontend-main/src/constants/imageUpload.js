@@ -1,0 +1,2 @@
+export const FILE_UPLOAD_URL = 'http://localhost:4040/files/upload';
+export const JWT_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZXNzb24iOiJjbG91ZGluYXJ5VXBsb2FkIiwiaWF0IjoxNzM2MDA1MTQzfQ.iGoEbKEwZA5kbkSdh6UjfBENlhDmlt9U75avZjrjmsY';
