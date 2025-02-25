@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const fs = require("fs");
 const { fileRouter } = require("./src/router/fileRouter.js");
@@ -6,8 +7,8 @@ const cors = require("cors");
 
 const app = express();
 
-//const __filename = fileURLToPath(import.meta.url);
-//const __dirname = path.dirname(__filename);
+// const __filename = __filename || path.basename(__filename);
+// const __dirname = __dirname || path.dirname(__filename);
 
 const uploadDir = path.join(__dirname, "uploads");
 
